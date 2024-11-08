@@ -1,0 +1,97 @@
+﻿<Window x:Class="project.WindowHistoryBooking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project"
+        mc:Ignorable="d"
+        Title="WindowHistoryBooking" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="461*"/>
+            <ColumnDefinition Width="214*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <DataGrid Name="dgvDisplay" Grid.Column="1" AutoGenerateColumns="False" CanUserAddRows="False" SelectedCellsChanged="dgvDisplay_SelectedCellsChanged"  Background="#FFFFFEFE">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Student"  Binding="{Binding Account.FullName}" />
+                <DataGridTextColumn Header="Room"  Binding="{Binding Room.Name}"/>
+                <DataGridTextColumn Header="Dom"  Binding="{Binding Dom.Name}"/>
+                <DataGridTextColumn Header="Note"  Binding="{Binding Note}"/>
+                <DataGridTextColumn Header="StartDate"  Binding="{Binding StartDate}"/>
+                <DataGridTextColumn Header="StartDate"  Binding="{Binding EndDate}"/>
+                <DataGridTextColumn Header="Status"  Binding="{Binding Status.Name}"/>
+            </DataGrid.Columns>
+        </DataGrid >
+
+        <StackPanel Grid.Column="2">
+
+
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="AssignmentId" Width="54" FontWeight="Bold"/>
+                <TextBox Name="txtAssignmentId" Width="130" VerticalContentAlignment="Center" Margin="26,0,0,0" IsReadOnly="True"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="AccountId" Width="79" FontWeight="Bold"/>
+                <ComboBox Name="cbxAccountId" Width="130" VerticalContentAlignment="Center" Margin="1,0,0,0" IsEnabled="False"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+
+                <Label Content="Room" Width="79" FontWeight="Bold"/>
+                <ComboBox Name="cbxRoomId" Width="130" VerticalContentAlignment="Center" Margin="1,0,0,0" IsEnabled="False"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Dom" Width="79" FontWeight="Bold"/>
+                <ComboBox Name="cbxDom" Width="130" VerticalContentAlignment="Center" Margin="1,0,0,0" IsEnabled="False"/>
+            </StackPanel>
+
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="StartDate" Width="79" FontWeight="Bold"/>
+                <DatePicker Name="dpkstart" Width="130" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="EndDate" Width="79" FontWeight="Bold"/>
+                <DatePicker Name="dpkend" Width="130" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Note" Width="54" FontWeight="Bold"/>
+                <TextBox Name="txtNote" Width="130" VerticalContentAlignment="Center" Margin="26,0,0,0" IsReadOnly="True"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Status" Width="79" FontWeight="Bold"/>
+                <ComboBox Name="cbxStatus" Width="130" VerticalContentAlignment="Center" Margin="1,0,0,0" IsEnabled="False"/>
+            </StackPanel>
+
+            <Grid Margin="0,29,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Cancel" Name="Cancel" Grid.Column="0" Width="50" Click="Cancel_Click" Background="#FFF15A5A" />
+            </Grid>
+        </StackPanel>
+
+        <StackPanel  Orientation="Vertical" Grid.Column="0"  Margin="0,5,0,5" >
+            <StackPanel>
+                <TextBlock FontWeight="Bold" FontFamily="Adobe Caslon Pro" FontSize="16" Foreground="#FF4A97D2" Margin="7,31,0,0">History Booking</TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Button  Content="Back" Name="back"  Width="98" Click="back_Click" Margin="0,61,0,5" Background="#FF79EDED" Height="34"/>
+            </StackPanel>
+            <StackPanel>
+                <Button  Content="Logout" Name="Logout"  Width="98" Click="Logout_Click" Margin="0,61,0,5" Background="#FF79EDED"  Height="34"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </Grid>
+</Window>

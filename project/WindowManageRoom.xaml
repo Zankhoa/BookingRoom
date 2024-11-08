@@ -1,0 +1,110 @@
+﻿<Window x:Class="project.WindowManageRoom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project"
+        mc:Ignorable="d"
+        Title="WindowManageRoom" Height="450" Width="800">
+    <Grid Background="#FFC8DADD">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="609*"/>
+            <ColumnDefinition Width="191*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"></RowDefinition>
+            <RowDefinition Height="26*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <DataGrid Name="dgvDisplay" Grid.Column="0" AutoGenerateColumns="False" CanUserAddRows="False" SelectedCellsChanged="dgvDisplay_SelectedCellsChanged" Margin="0,70,0,0" Grid.RowSpan="2" Background="#FFFFFEFE">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Roomid" Binding="{Binding Roomid}"/>
+                <DataGridTextColumn Header="RoomName"  Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Capacity"  Binding="{Binding Capacity}"/>
+                <DataGridTextColumn Header="FloorRoom"  Binding="{Binding FloorRoom}"/>
+                <DataGridTextColumn Header="Description"  Binding="{Binding Description}"/>
+                <DataGridTextColumn Header="Dom"  Binding="{Binding Dom.Name}"/>
+                <DataGridTextColumn Header="Student"  Binding="{Binding Account.FullName}"/>
+            </DataGrid.Columns>
+        </DataGrid >
+
+        <StackPanel Grid.Column="1" Margin="0,70,0,0" Grid.RowSpan="2">
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Roomid" Width="54" FontWeight="Bold"/>
+                <TextBox Name="txtId" Width="102" VerticalContentAlignment="Center" Margin="26,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="RoomName" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtRoomName" Width="102" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Capacity" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtCapity" Width="102" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="FloorRoom" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtFloorRoom" Width="102" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Description" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtDescription" Width="102" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Student" Width="79" FontWeight="Bold"/>
+                <ComboBox Name="cbxStudent" Width="102">
+
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Dom" Width="79" FontWeight="Bold"/>
+                <ComboBox Name="cbxDom" Width="102">
+
+                </ComboBox>
+            </StackPanel>
+
+            <Grid Margin="0,29,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Content="Insert" Name="btnInsert" Grid.Column="0" Width="50" Click="BtnInsert_Click" Background="#FF70C664"/>
+                <Button Content="Update" Name="btnUpdate" Grid.Column="1" Width="50" Click="btnUpdate_Click" Background="#FF3B94E3"/>
+                <Button Content="Delete" Name="btndelete" Grid.Column="2" Width="50" Click="btndelete_Click" Background="#FFE54C62"/>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="0">
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Roomname" Width="79"/>
+                <TextBox Name="txtSearch" Width="48" VerticalContentAlignment="Center" Margin="-5,0,-1,0"/>
+                <Button Content="Search" Name="search" Width="56" Click="search_Click" RenderTransformOrigin="0.493,-1.048" Margin="18,0,0,0"/>
+            </StackPanel>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="0" Grid.Row="0" >
+            <Grid Margin="0,29,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="ManageRoom" Name="ManageRoom" Grid.Column="0" Click="ManageRoom_Click" Background="#FFB0C5AD" Margin="13,0,25,0"/>
+                <Button Content="ManageAccount" Name="ManageAccount" Grid.Column="1" Click="ManageAccount_Click" Background="#FFB0C5AD" Margin="-9,0,32,0"/>
+                <Button Content="ManageDom" Name="ManageDom" Grid.Column="2" Width="77" Click="ManageDom_Click" Background="#FFB0C5AD" Margin="-60,0,0,0"/>
+                <Button Content="ManageRoomAssignment" Name="ManageRoomAssignment" Grid.Column="2" Click="ManageRoomAssignment_Click" Background="#FFB0C5AD" Grid.ColumnSpan="3" Margin="89,0,106,0"/>
+                <Button Content="Logout" Name="logout" Grid.Column="4" Click="logout_Click" Background="#FFB0C5AD" Margin="35,0,0,0"/>
+            </Grid>
+        </StackPanel>
+    </Grid>
+</Window>

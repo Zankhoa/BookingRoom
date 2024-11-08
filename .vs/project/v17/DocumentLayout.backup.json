@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\bookingroom-main\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|d:\\bookingroom-main\\project\\project\\windowhistorybooking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|solutionrelative:project\\windowhistorybooking.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|d:\\bookingroom-main\\project\\project\\windowhistorybooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|solutionrelative:project\\windowhistorybooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|d:\\bookingroom-main\\project\\project\\windowbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|solutionrelative:project\\windowbooking.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|d:\\bookingroom-main\\project\\project\\windowregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|solutionrelative:project\\windowregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|d:\\bookingroom-main\\project\\project\\windowmanageroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|solutionrelative:project\\windowmanageroom.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|d:\\bookingroom-main\\project\\project\\windowmanageroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED8118A8-EC46-4A2E-8464-D7654D5326D6}|project\\project.csproj|solutionrelative:project\\windowmanageroom.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 394,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dee22b65-9761-4a26-8fb2-759b971d6dfc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:7:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:6:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 70,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowHistoryBooking.xaml.cs",
+              "DocumentMoniker": "D:\\bookingroom-main\\project\\project\\WindowHistoryBooking.xaml.cs",
+              "RelativeDocumentMoniker": "project\\WindowHistoryBooking.xaml.cs",
+              "ToolTip": "D:\\bookingroom-main\\project\\project\\WindowHistoryBooking.xaml.cs",
+              "RelativeToolTip": "project\\WindowHistoryBooking.xaml.cs",
+              "ViewState": "AgIAABgAAADoy8zMzMw3wCQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:08:31.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WindowBooking.xaml",
+              "DocumentMoniker": "D:\\bookingroom-main\\project\\project\\WindowBooking.xaml",
+              "RelativeDocumentMoniker": "project\\WindowBooking.xaml",
+              "ToolTip": "D:\\bookingroom-main\\project\\project\\WindowBooking.xaml",
+              "RelativeToolTip": "project\\WindowBooking.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T04:02:04.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WindowHistoryBooking.xaml",
+              "DocumentMoniker": "D:\\bookingroom-main\\project\\project\\WindowHistoryBooking.xaml",
+              "RelativeDocumentMoniker": "project\\WindowHistoryBooking.xaml",
+              "ToolTip": "D:\\bookingroom-main\\project\\project\\WindowHistoryBooking.xaml",
+              "RelativeToolTip": "project\\WindowHistoryBooking.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T04:01:46.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowRegister.xaml.cs",
+              "DocumentMoniker": "D:\\bookingroom-main\\project\\project\\WindowRegister.xaml.cs",
+              "RelativeDocumentMoniker": "project\\WindowRegister.xaml.cs",
+              "ToolTip": "D:\\bookingroom-main\\project\\project\\WindowRegister.xaml.cs",
+              "RelativeToolTip": "project\\WindowRegister.xaml.cs",
+              "ViewState": "AgIAABMAAACAlpmZmVkqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:13:55.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WindowManageRoom.xaml.cs",
+              "DocumentMoniker": "D:\\bookingroom-main\\project\\project\\WindowManageRoom.xaml.cs",
+              "RelativeDocumentMoniker": "project\\WindowManageRoom.xaml.cs",
+              "ToolTip": "D:\\bookingroom-main\\project\\project\\WindowManageRoom.xaml.cs",
+              "RelativeToolTip": "project\\WindowManageRoom.xaml.cs",
+              "ViewState": "AgIAAKUAAACAnpmZmZkwwH8AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T01:10:52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WindowManageRoom.xaml",
+              "DocumentMoniker": "D:\\bookingroom-main\\project\\project\\WindowManageRoom.xaml",
+              "RelativeDocumentMoniker": "project\\WindowManageRoom.xaml",
+              "ToolTip": "D:\\bookingroom-main\\project\\project\\WindowManageRoom.xaml",
+              "RelativeToolTip": "project\\WindowManageRoom.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-06T01:10:50.827Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

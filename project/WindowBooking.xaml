@@ -1,0 +1,91 @@
+﻿<Window x:Class="project.WindowBooking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:project"
+        mc:Ignorable="d"
+        Title="WindowBooking" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="162*"/>
+            <ColumnDefinition Width="377*"/>
+            <ColumnDefinition Width="261*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <DataGrid Name="dgvDisplay" Grid.Column="1" AutoGenerateColumns="False" CanUserAddRows="False" SelectedCellsChanged="dgvDisplay_SelectedCellsChanged"  Background="#FFFFFEFE">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Roomid" Binding="{Binding Roomid}"/>
+                <DataGridTextColumn Header="RoomName"  Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Capacity"  Binding="{Binding Capacity}"/>
+                <DataGridTextColumn Header="FloorRoom"  Binding="{Binding FloorRoom}"/>
+                <DataGridTextColumn Header="Dom"  Binding="{Binding Dom.Name}"/>
+            </DataGrid.Columns>
+        </DataGrid >
+
+        <StackPanel Grid.Column="2" Margin="0,0,0,0">
+
+
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="RoomName" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtRoomName" Width="158" VerticalContentAlignment="Center" Margin="1,0,0,0" IsReadOnly="True"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Capacity" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtCapity" Width="158" VerticalContentAlignment="Center" Margin="1,0,0,0" IsReadOnly="True"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="FloorRoom" Width="79" FontWeight="Bold"/>
+                <TextBox Name="txtFloorRoom" Width="158" VerticalContentAlignment="Center" Margin="1,0,0,0" IsReadOnly="True"/>
+            </StackPanel>
+
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Dom" Width="79" FontWeight="Bold" />
+                <ComboBox Name="cbxDom" Width="158"  IsEnabled="False">
+
+                </ComboBox>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="StartDate" Width="79" FontWeight="Bold"/>
+                <DatePicker Name="dpkstart" Width="158" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="EndDate" Width="79" FontWeight="Bold"/>
+                <DatePicker Name="dpkend" Width="158" VerticalContentAlignment="Center" Margin="1,0,0,0"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal" Margin="0, 5, 0 ,5">
+                <Label Content="Note" Width="54" FontWeight="Bold"/>
+                <TextBox Name="txtNote" Width="158" VerticalContentAlignment="Center" Margin="26,0,0,0"/>
+            </StackPanel>
+
+            <Grid Margin="0,29,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button Content="Booking" Name="btnBooking" Grid.Column="0" Width="50" Click="btnBooking_Click" Background="#FF70C664"/>
+            </Grid>
+        </StackPanel>
+
+        <StackPanel  Orientation="Vertical" Grid.Column="0"  Margin="0, 5, 0 ,5" >
+            <StackPanel>
+                <TextBlock FontWeight="Bold" FontFamily="Adobe Caslon Pro" FontSize="16" Foreground="#FF4A97D2" Margin="27,31,0,0">Booking Room</TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Button  Content="History booking" Name="history"  Width="98" Click="history_Click" Margin="0,61,0,5" Background="#FF70C664" Height="34"/>
+            </StackPanel>
+            <StackPanel>
+                <Button  Content="Logout" Name="Logout"  Width="98" Click="Logout_Click" Margin="0,61,0,5" Background="#FF70C664" Height="34"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </Grid>
+</Window>
